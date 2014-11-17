@@ -1,0 +1,1 @@
+For practice with Ruby. Allows entry of words, entry of multiple definitions per word, display of all words entered, search of all words entered, delete words, and delete specific definitions. 
