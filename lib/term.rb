@@ -57,11 +57,11 @@ class Term
  end
 
 #the following code was used to evaluate some of the above code (it is not necessary, just for illustrative purposes)
-Carrot = Term.new("carrot", "healthy vegetable")
+Tree = Term.new("tree", "tall with a green top")
 
-Carrot.push_definition("orange food")
+Tree.push_definition("provider of oxygen")
 
-Carrot.save
+Tree.save
 
 Brocolli = Term.new("brocolli", "green food")
 
@@ -71,11 +71,11 @@ Brocolli.save
 
 Brocolli.delete
 
-array = Carrot.definitions
+array = Tree.definitions
 
 array.delete_at(0)
 
-puts array  #displays: "orange food"
+puts array  #displays: "provider of oxygen"
 
 
 
