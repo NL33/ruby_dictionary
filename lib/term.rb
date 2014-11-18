@@ -57,7 +57,7 @@ class Term
  end
 
 #the following code was used to evaluate some of the above code (it is not necessary, just for illustrative purposes)
-Tree = Term.new("tree", "tall with a green top")
+Tree = Term.new("tree", "tall with green on top")
 
 Tree.push_definition("provider of oxygen")
 
